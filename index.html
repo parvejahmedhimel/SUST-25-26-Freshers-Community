@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUST 25–26 Freshers Community | Official Hub</title>
+    <meta name="description" content="Official community hub for SUST 25–26 freshers. Join our WhatsApp, Facebook, Messenger, and Telegram groups.">
+    
+    <!-- Google Fonts: Poppins & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',    // Deep Blue
+                        secondary: '#22c55e',  // Green
+                        accent: '#9333ea',     // Purple
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .hover-glow:hover {
+            box-shadow: 0 10px 30px -5px rgba(30, 64, 175, 0.2);
+            transform: translateY(-5px);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #1e40af, #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="font-sans bg-[#f8fafc] text-slate-900">
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FkPjKKae2u78kJzJEPlLkYfZd5f5NT6jwQ&s" alt="SUST Logo" class="w-10 h-10 rounded-full object-cover shadow-sm">
+                <span class="font-heading font-bold text-lg tracking-tight text-primary hidden sm:block">SUST 25-26</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="#groups" class="hidden md:block font-medium text-slate-600 hover:text-primary transition-colors">Communities</a>
+                <a href="https://chat.whatsapp.com/L8hLA0vUopO5iYvVIQ6HMI" target="_blank" class="bg-primary text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-blue-800 transition-all shadow-md active:scale-95">
+                    Join Now
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section class="relative pt-32 pb-20 px-4 overflow-hidden">
+        <!-- Background Accents -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 opacity-30">
+            <div class="absolute top-20 left-10 w-64 h-64 bg-blue-200 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-10 right-10 w-64 h-64 bg-purple-200 rounded-full blur-3xl animate-float" style="animation-delay: 2s"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="font-heading text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+                Welcome SUST <span class="gradient-text">25–26 Freshers</span> 🎉
+            </h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
+                Congratulations on getting admitted to SUST! Join our official student communities to connect with your batchmates and stay updated.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#groups" class="w-full sm:w-auto px-8 py-4 bg-primary text-white rounded-2xl font-bold text-lg hover:shadow-2xl hover:shadow-blue-200 transition-all active:scale-95">
+                    Join Community
+                </a>
+                <a href="#groups" class="w-full sm:w-auto px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all shadow-sm">
+                    View All Groups
+                </a>
+            </div>
+
+            <!-- Icon Showcase -->
+            <div class="mt-16 flex justify-center gap-8 opacity-60">
+                <i data-lucide="facebook" class="w-7 h-7 hover:text-blue-600 transition-colors cursor-help"></i>
+                <i data-lucide="message-circle" class="w-7 h-7 hover:text-purple-600 transition-colors cursor-help"></i>
+                <i data-lucide="send" class="w-7 h-7 hover:text-sky-500 transition-colors cursor-help"></i>
+                <i data-lucide="phone" class="w-7 h-7 hover:text-green-500 transition-colors cursor-help"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. COMMUNITY GROUPS SECTION -->
+    <section id="groups" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl font-bold mb-4">Official Freshers Community Links</h2>
+                <div class="w-16 h-1 bg-secondary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1: FB Group -->
+                <div class="glass-card p-6 rounded-3xl transition-all duration-300 hover-glow group">
+                    <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                        <i data-lucide="facebook"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">Facebook Group</h3>
+                    <p class="text-slate-500 mb-6 text-sm leading-relaxed">Share questions and stay updated with official batch announcements.</p>
+                    <a href="https://www.facebook.com/share/g/1EfDpYAirH/" target="_blank" class="block text-center py-3 bg-slate-900 text-white rounded-xl font-semibold hover:bg-blue-600 transition-colors">Join Facebook</a>
+                </div>
+
+                <!-- Card 2: Messenger -->
+                <div class="glass-card p-6 rounded-3xl transition-all duration-300 hover-glow group">
+                    <div class="w-12 h-12 bg-purple-100 rounded-2xl flex items-center justify-center mb-6 text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition-all">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">Messenger Chat</h3>
+                    <p class="text-slate-500 mb-6 text-sm leading-relaxed">Real-time discussion with your new batch friends 24/7.</p>
+                    <a href="https://m.me/j/AbZ9P0ebhOEFdAJ_/" target="_blank" class="block text-center py-3 bg-slate-900 text-white rounded-xl font-semibold hover:bg-purple-600 transition-colors">Join Messenger</a>
+                </div>
+
+                <!-- Card 3: Telegram -->
+                <div class="glass-card p-6 rounded-3xl transition-all duration-300 hover-glow group">
+                    <div class="w-12 h-12 bg-sky-100 rounded-2xl flex items-center justify-center mb-6 text-sky-500 group-hover:bg-sky-500 group-hover:text-white transition-all">
+                        <i data-lucide="send"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">Telegram Group</h3>
+                    <p class="text-slate-500 mb-6 text-sm leading-relaxed">Get admission resources, notes, and quick academic updates.</p>
+                    <a href="https://t.me/+XB1Qrg4Nu0YxOWM1" target="_blank" class="block text-center py-3 bg-slate-900 text-white rounded-xl font-semibold hover:bg-sky-500 transition-colors">Join Telegram</a>
+                </div>
+
+                <!-- Card 4: WhatsApp -->
+                <div class="glass-card p-6 rounded-3xl transition-all duration-300 hover-glow group">
+                    <div class="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center mb-6 text-green-600 group-hover:bg-green-600 group-hover:text-white transition-all">
+                        <i data-lucide="phone"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-2">WhatsApp</h3>
+                    <p class="text-slate-500 mb-6 text-sm leading-relaxed">The main community hub for instant connectivity with everyone.</p>
+                    <a href="https://chat.whatsapp.com/L8hLA0vUopO5iYvVIQ6HMI" target="_blank" class="block text-center py-3 bg-slate-900 text-white rounded-xl font-semibold hover:bg-green-600 transition-colors">Join WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ABOUT COMMUNITY SECTION -->
+    <section id="about" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl font-bold mb-4">Why Join This Community?</h2>
+                <p class="text-slate-600">Built to make your transition to SUST smooth and fun.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white shadow-sm rounded-full flex items-center justify-center mx-auto mb-4 text-primary">
+                        <i data-lucide="users-2"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Meet Batchmates</h4>
+                    <p class="text-slate-500 text-sm">Find friends from your department before classes start.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white shadow-sm rounded-full flex items-center justify-center mx-auto mb-4 text-secondary">
+                        <i data-lucide="info"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Important Updates</h4>
+                    <p class="text-slate-500 text-sm">Never miss an update about registration or halls.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white shadow-sm rounded-full flex items-center justify-center mx-auto mb-4 text-accent">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Help & Discussion</h4>
+                    <p class="text-slate-500 text-sm">Ask anything about campus life and get answers.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white shadow-sm rounded-full flex items-center justify-center mx-auto mb-4 text-orange-500">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Networking</h4>
+                    <p class="text-slate-500 text-sm">Connect with seniors and build your future network.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. BATCH INTRO SECTION -->
+    <section class="py-20 px-4">
+        <div class="max-w-5xl mx-auto bg-primary rounded-[2.5rem] p-10 md:p-20 text-center text-white relative overflow-hidden shadow-2xl shadow-blue-900/20">
+            <div class="absolute top-0 right-0 p-10 opacity-10">
+                <i data-lucide="graduation-cap" class="w-40 h-40"></i>
+            </div>
+            <h2 class="font-heading text-3xl md:text-4xl font-bold mb-6">SUST 25–26 Batch</h2>
+            <p class="text-lg opacity-80 max-w-2xl mx-auto leading-relaxed italic">
+                "You are now part of the SUST 25–26 family. This platform helps all freshers connect, communicate, and support each other during the beginning of their university life."
+            </p>
+            <div class="mt-8 flex justify-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FkPjKKae2u78kJzJEPlLkYfZd5f5NT6jwQ&s" alt="SUST Logo" class="w-16 h-16 rounded-full border-2 border-white/30">
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. QUICK JOIN SECTION -->
+    <section id="join" class="py-20 px-4">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="font-heading text-3xl font-bold mb-8">Join the Community Now</h2>
+            <div class="space-y-4">
+                <a href="https://www.facebook.com/share/g/1EfDpYAirH/" class="flex items-center justify-between p-5 bg-[#1877F2] text-white rounded-2xl font-bold hover:opacity-90 transition-all group">
+                    <span class="flex items-center gap-3"><i data-lucide="facebook"></i> Facebook Group</span>
+                    <i data-lucide="arrow-right" class="group-hover:translate-x-1 transition-transform"></i>
+                </a>
+                <a href="https://t.me/+XB1Qrg4Nu0YxOWM1" class="flex items-center justify-between p-5 bg-[#0088cc] text-white rounded-2xl font-bold hover:opacity-90 transition-all group">
+                    <span class="flex items-center gap-3"><i data-lucide="send"></i> Telegram Community</span>
+                    <i data-lucide="arrow-right" class="group-hover:translate-x-1 transition-transform"></i>
+                </a>
+                <a href="https://chat.whatsapp.com/L8hLA0vUopO5iYvVIQ6HMI" class="flex items-center justify-between p-5 bg-[#25D366] text-white rounded-2xl font-bold hover:opacity-90 transition-all group">
+                    <span class="flex items-center gap-3"><i data-lucide="phone"></i> WhatsApp Community</span>
+                    <i data-lucide="arrow-right" class="group-hover:translate-x-1 transition-transform"></i>
+                </a>
+            </div>
+            
+            <div class="mt-12 flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="shareWebsite()" class="flex items-center justify-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-xl font-semibold hover:bg-slate-50 shadow-sm transition-all">
+                    <i data-lucide="share-2" class="w-4 h-4"></i> Share Site
+                </button>
+                <button onclick="copyLink()" class="flex items-center justify-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-xl font-semibold hover:bg-slate-50 shadow-sm transition-all">
+                    <i data-lucide="copy" class="w-4 h-4"></i> Copy Link
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 pt-16 pb-8 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <div>
+                <div class="flex items-center gap-2 mb-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FkPjKKae2u78kJzJEPlLkYfZd5f5NT6jwQ&s" alt="Logo" class="w-8 h-8 rounded-full">
+                    <span class="font-heading font-bold text-white tracking-wide">SUST 25-26</span>
+                </div>
+                <p class="text-sm leading-relaxed">
+                    Connecting the next generation of SUSTians. Join the community and make your campus life memorable.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-6 uppercase text-xs tracking-widest">Quick Links</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#groups" class="hover:text-white transition-colors">Join Groups</a></li>
+                    <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="https://www.sust.edu" target="_blank" class="hover:text-white transition-colors">Official SUST Website</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-6 uppercase text-xs tracking-widest">Connect</h4>
+                <div class="flex gap-4">
+                    <a href="https://www.facebook.com/share/g/1EfDpYAirH/" class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                    <a href="https://t.me/+XB1Qrg4Nu0YxOWM1" class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-sky-500 hover:text-white transition-all"><i data-lucide="send" class="w-5 h-5"></i></a>
+                    <a href="https://chat.whatsapp.com/L8hLA0vUopO5iYvVIQ6HMI" class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-green-600 hover:text-white transition-all"><i data-lucide="phone" class="w-5 h-5"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto pt-8 border-t border-white/5 text-center text-xs">
+            <p>&copy; 2026 SUST 25–26 Freshers Community. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Telegram Action -->
+    <a href="https://t.me/+XB1Qrg4Nu0YxOWM1" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-sky-500 text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all z-50 group">
+        <i data-lucide="send" class="group-hover:rotate-12 transition-transform"></i>
+    </a>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Share functionality
+        async function shareWebsite() {
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: 'SUST 25-26 Freshers Community',
+                        text: 'Join the official community groups for SUST 25-26 batch!',
+                        url: window.location.href,
+                    });
+                } catch (err) {
+                    console.log('Share failed');
+                }
+            } else {
+                copyLink(); // Fallback to copy link
+            }
+        }
+
+        // Copy Link functionality
+        function copyLink() {
+            navigator.clipboard.writeText(window.location.href);
+            alert("Website link copied to clipboard!");
+        }
+    </script>
+</body>
+</html>
